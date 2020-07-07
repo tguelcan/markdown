@@ -12,6 +12,9 @@
 A simple markdown theme. Provided as CSS and SCSS file which can be customized, extended and configured as desired.
 According to [Stylelint](https://stylelint.io/) standards.
 
+![preview][preview]
+
+
 Use the content or add via yarn/npm
 
 ```sh
@@ -20,3 +23,4 @@ yarn add plain-markdown
 
 [license-shield]: https://img.shields.io/github/license/tguelcan/restexpress.svg?style=flat-square
 [license-url]: https://github.com/tguelcan/markdown/blob/master/LICENSE
+[preview]: preview.png
