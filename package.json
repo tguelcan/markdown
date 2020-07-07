@@ -1,0 +1,36 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "Simple markdown theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tguelcan/markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "css",
+    "scss",
+    "sass",
+    "theme",
+    "md"
+  ],
+  "author": "Tayfun Guelcan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tguelcan/markdown/issues"
+  },
+  "scripts": {
+    "lint:scss": "stylelint **/*.scss",
+    "lint:css": "stylelint **/*.css",
+    "lint": "yarn run lint:scss && yarn run lint:css"
+  },
+  "homepage": "https://github.com/tguelcan/markdown#readme",
+  "devDependencies": {
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
